@@ -1,0 +1,58 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    max-width: 400px;
+    margin-top: 5%;
+    
+}
+
+.interno{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+.orange{
+    background-color: #ff9500;
+    color: white;
+}
+
+.gray{
+    background-color: #505050;
+    color: white;
+}
+
+.grayException{
+    visibility: hidden;
+}
+
+.result{
+    color: white;
+    display: flex;
+    justify-content: right;
+    font-size: 70px;
+    margin-right: 60px;
+    margin-bottom: 1px;
+}
+
+body{
+    background-color: #170b2a;
+}
